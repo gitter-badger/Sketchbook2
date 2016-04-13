@@ -114,6 +114,14 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>bintray</name>
+            <url>http://jcenter.bintray.com</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <!-- Test -->
         <dependency>
@@ -127,6 +135,11 @@
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib</artifactId>
             <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.funktionale</groupId>
+            <artifactId>funktionale</artifactId>
+            <version>0.8</version>
         </dependency>
     </dependencies>
 
